@@ -1,4 +1,12 @@
-# UPCA v4.1 — Unified Predictive Cognitive Architecture
+[![DOI](https://zenodo.org/badge/1035288514.svg)](https://doi.org/10.5281/zenodo.16787673)
+
+# UPCA — Unified Predictive Cognitive Architecture
+
+**One control loop:** free energy + precision Γ + ethical prior η.  
+Closed-form signals: **L(t)** (laughter trigger), **Q(t)** (qualia intensity), and **grounded meaning** via fast/slow F with η gating.  
+Minimal sim runs now: `python upca_min.py`.
+
+# UPCA — Unified Predictive Cognitive Architecture
 
 > Closed-form, falsifiable signals for laughter `L(t)`, qualia intensity `Q(t)`, and grounded meaning via fast/slow free energy + ethical prior `η`, integrated in a single control loop.
 
