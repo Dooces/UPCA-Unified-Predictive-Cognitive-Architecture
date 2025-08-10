@@ -2,7 +2,7 @@
 
 > Closed-form, falsifiable signals for laughter `L(t)`, qualia intensity `Q(t)`, and grounded meaning via fast/slow free energy + ethical prior `η`, integrated in a single control loop.
 
-[**Whitepaper (PDF)**](UPCA_v4.1_whitepaper.pdf) • [**Minimal simulator**](upca_min.py)
+[**Whitepaper (PDF)**](UPCA_v1.0_whitepaper.pdf) • [**Minimal simulator**](upca_min.py)
 
 **DOI:** _pending_ • **License:** MIT
 
