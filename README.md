@@ -2,26 +2,16 @@
 
 # UPCA — Unified Predictive Cognitive Architecture
 
-**One control loop:** free energy + precision Γ + ethical prior η.  
-Closed-form signals: **L(t)** (laughter trigger), **Q(t)** (qualia intensity), and **grounded meaning** via fast/slow F with η gating.  
-Minimal sim runs now: `python upca_min.py`.
+**One control loop:** variational free energy + precision (Γ) + ethical prior (η).  
+Closed-form, testable signals for **laughter** L(t), **qualia intensity** Q(t), and **grounded meaning** via fast/slow F with η-gating.
 
-# UPCA — Unified Predictive Cognitive Architecture
+---
 
-> Closed-form, falsifiable signals for laughter `L(t)`, qualia intensity `Q(t)`, and grounded meaning via fast/slow free energy + ethical prior `η`, integrated in a single control loop.
+## TL;DR
+UPCA gives operational equations for phenomena people hand-wave (laughter timing, qualia intensity, meaning grounding) and puts them in a single, implementable control loop that runs today.
 
-[**Whitepaper (PDF)**](UPCA_v1.0_whitepaper.pdf) • [**Minimal simulator**](upca_min.py)
-
-**DOI:** _pending_ • **License:** MIT
-
-## Cite
-Fontaine, B. (2025). UPCA: A Unified Predictive Cognitive Architecture (whitepaper & code). _Zenodo_. DOI: [![DOI](https://zenodo.org/badge/1035288514.svg)](https://doi.org/10.5281/zenodo.16787673)
-
-## Summary
-- **Laughter**: \(L(t)=\sigma(\alpha\,\Delta\dot F_{\text{social}}+\beta\,\Delta\ddot F_{\text{semantic}}-\gamma\,\Gamma_{\text{threat}})\)
-- **Qualia**: \(Q(t)=\sum_i \Gamma_i(t)\,|dF_i/dt|+\lambda\,H[q(s_i|o)]\)
-- **Grounding**: minimize \(F_{\text{fast}}\) + \(\epsilon F_{\text{slow}}\) + \(\gamma \epsilon_\eta\); ablations predict measurable failures.
-
-## Run
+## Quickstart
 ```bash
+git clone https://github.com/Dooces/UPCA-Unified-Predictive-Cognitive-Architecture.git
+cd UPCA-Unified-Predictive-Cognitive-Architecture
 python upca_min.py
