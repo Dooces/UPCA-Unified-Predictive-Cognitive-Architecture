@@ -7,7 +7,7 @@
 **DOI:** _pending_ • **License:** MIT
 
 ## Cite
-Brent, B. (2025). UPCA v4.1: A Unified Predictive Cognitive Architecture (whitepaper & code). _Zenodo_. DOI: _pending_
+Fontaine, B. (2025). UPCA: A Unified Predictive Cognitive Architecture (whitepaper & code). _Zenodo_. DOI: [![DOI](https://zenodo.org/badge/1035288514.svg)](https://doi.org/10.5281/zenodo.16787673)
 
 ## Summary
 - **Laughter**: \(L(t)=\sigma(\alpha\,\Delta\dot F_{\text{social}}+\beta\,\Delta\ddot F_{\text{semantic}}-\gamma\,\Gamma_{\text{threat}})\)
